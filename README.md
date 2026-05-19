@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Cybersecurity Incident Reporting System
 
 **Database Systems — Final Project**
@@ -181,3 +182,6 @@ The login we created to access the Atlas web console is **not** the same as the 
 ---
 
 *Submitted as the final project for the Database Systems course, COMSATS University of Islamabad.*
+=======
+# CyberSecurityIncidentSystem
+>>>>>>> e2256f0af46cedfd196eabe57863ba0b71a05612
