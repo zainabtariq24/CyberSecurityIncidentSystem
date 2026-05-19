@@ -1,18 +1,7 @@
 <<<<<<< HEAD
 # Cybersecurity Incident Reporting System
 
-**Database Systems — Final Project**
-Submitted to: **Sir Qaisar Farooq**
-
-**Submitted by:**
-- Areesha Tahir (FA24-BCT-012)
-- Zainab Tariq (FA24-BCT-048)
-- Hadia Imran Raja (FA24-BCT-059)
-
-COMSATS University of Islamabad — Bachelors in Cyber Security
-
----
-
+**Database Systems — Group Project**
 ## Table of Contents
 1. [Purpose and Objectives](#1-purpose-and-objectives)
 2. [Features and Functionalities](#2-features-and-functionalities)
@@ -22,8 +11,6 @@ COMSATS University of Islamabad — Bachelors in Cyber Security
 6. [Step-by-Step Explanation](#6-step-by-step-explanation)
 7. [Setup and Installation](#7-setup-and-installation)
 8. [Difficulties Faced with MongoDB on First Use](#8-difficulties-faced-with-mongodb-on-first-use)
-
----
 
 ## 1. Purpose and Objectives
 
@@ -138,7 +125,6 @@ View database and environment information via the *System Settings* card.
 **Step 7 — Exit Console**
 Click *Exit Console* at the bottom of the dashboard. Confirm the warning prompt to close the system.
 
----
 
 ## 7. Setup and Installation
 
@@ -160,28 +146,13 @@ mongodb.database=cyber_incident_db
 
 `config.properties` is listed in `.gitignore`, so your credentials stay on your machine and are never pushed to GitHub.
 
-### Build and run
-
-```powershell
-mvn clean package
-java -jar target/CyberIncidentSystem.jar
-```
-
----
-
 ## 8. Difficulties Faced with MongoDB on First Use
 
 MongoDB was not part of our coursework, and we had never used it before this project — we taught it to ourselves from scratch using documentation, articles, and trial and error. Because of that, even small steps in the setup process became time-consuming, and the lack of prior exposure made the learning curve genuinely challenging. The two issues below were the biggest hurdles we faced while connecting our Java application to a MongoDB Atlas cluster:
 
 ### 8.1 Three different "MongoDBs" to learn at once
 We initially confused **MongoDB Atlas** (the cloud-hosted database), **MongoDB Compass** (the desktop GUI client), and the **MongoDB Java Driver** (the library that talks to the database from code). They all need to be installed/configured separately, and as beginners it was easy to assume that setting one up meant the others were ready. Figuring out how the three pieces fit together took a fair amount of self-study.
-
 ### 8.2 Atlas account vs. database user
 The login we created to access the Atlas web console is **not** the same as the database user the application uses. We had to create a dedicated DB user under *Database Access* with its own username and password, and we lost time trying to use our Atlas account credentials in the connection string before realizing why authentication kept failing. Since no one had walked us through this distinction, it was something we had to discover ourselves.
 
----
-
-*Submitted as the final project for the Database Systems course, COMSATS University of Islamabad.*
-=======
-# CyberSecurityIncidentSystem
 >>>>>>> e2256f0af46cedfd196eabe57863ba0b71a05612
