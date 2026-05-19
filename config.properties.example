@@ -1,0 +1,5 @@
+# Copy this file to config.properties and fill in your real values.
+# config.properties is gitignored so your credentials never leave your machine.
+
+mongodb.uri=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/
+mongodb.database=cyber_incident_db
